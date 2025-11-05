@@ -1,6 +1,6 @@
+500 Bridge Abutment
 <img width="882" height="463" alt="Image" src="https://github.com/user-attachments/assets/0170cc7d-9d21-484a-8caf-b212beb8580c" />
 
-500 Bridge Abutment:
 The code generates the geometry, assign all attributes, runs LUSAS, and plots the deformed mesh.
 Users can edit geometry inputs.
 The MC model is adopted for soil behaviour.
@@ -17,6 +17,15 @@ h1 = 8.0    # Model left side depth, 1:h2\
 h2 = 11.5   # Model Right side depth (not less than h1+2),h1:100\
 f = 5.0     # distributed load projecion (less than d-2), minimum 1m\
 b = 1.5     # Half-width of the abutment base 1-2m
+
+502 Tunnel
+<img width="1259" height="775" alt="Tunnel" src="https://github.com/user-attachments/assets/19f61fd9-cfb6-4410-bae1-7fb7d9704141" />
+radius = 3      # Tunnel radius (m)\
+b = 20          # Inner box size around tunnel (m)\
+a = 5           # Refined zone width around inner box (m)\
+c = 20          # Top extension above tunnel(m)\
+w = 110         # Total outer width of model(m)\
+l = 65          # Total outer length (depth) of model(m)
 
 
 
